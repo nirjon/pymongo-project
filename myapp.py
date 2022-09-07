@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://nirjon:mongocomp590136@cluster0.cdfli6d.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://nirjon:<PASS>@cluster0.cdfli6d.mongodb.net/?retryWrites=true&w=majority")
 db = client["mydb"]
 
 all = db.mycollection.find({})
